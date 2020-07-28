@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: 'AS213007',
+    siteTitleAlt: `AS213007 - PSN Labs`,
+    siteHeadline: '',
+    siteDescription: '',
+    siteUrl: 'https://as213007.com',
+    siteLanguage: 'en',
+    author: '',
+    siteImage: 'siteImage'
   },
   plugins: [
     {
@@ -25,12 +32,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Peering DB`,
+            url: `https://www.peeringdb.com/net/23809`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `HE.NET - AS213007`,
+            url: `https://bgp.he.net/AS213007`,
           },
         ],
       },

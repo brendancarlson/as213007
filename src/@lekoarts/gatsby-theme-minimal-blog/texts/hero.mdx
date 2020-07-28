@@ -1,0 +1,48 @@
+import GetPeers from "../../../../functions/getPeers";
+
+<div>
+<h3>PSN Labs</h3>
+<p>Welcome to the PSN Labs Site.</p>
+<br />
+<h4>Peering Policy</h4>
+<p>AS213007 has open peering policy, we are willing to peer over any exchange points we have in common.</p>
+<p>
+    Our network information:
+    ASN: 46997 <br />
+    AS-SET: AS-PSNLABS <br />
+    Policy: Open <br />
+</p>
+<p>
+    To peer with us, you must have:
+    <ul>
+        <li>
+            One or more common Internet Exchange with us.
+        </li>
+        <li>
+            A publicly routable ASN.
+        </li>
+        <li>
+            Completed ASN record in PeeringDB.
+        </li>
+        <li>
+            One or more public routable IPv4 and/or IPv6 address space.
+        </li>
+    </ul>
+</p>
+<p>
+    If you meet the criteria above and would like to peer with us, you should respect following rules:
+    <ul>
+        <li>
+            Only send routes that from your own network, and only announce address space which you are authorized to announce.
+        </li>
+        <li>Only send traffic that is destined to routes that we announced to you.</li>
+        <li>
+            We filter on RPKI and IRR, all prefixes must have IRR entries or even better RPKI entries.
+        </li>
+    </ul>
+</p>
+<p>We are currently not accepting new peering requests</p>
+<br />
+<h4>Current BGP Peers</h4>
+<GetPeers />
+</div>
