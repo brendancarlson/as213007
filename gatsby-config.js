@@ -17,6 +17,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `sitemap.xml` // required!
+      }
+    },
+    {
       resolve: `gatsby-plugin-netlify-identity`,
       options: {
         url: `http://www.as213007.com/.netlify/identity` // required!
