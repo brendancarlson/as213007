@@ -17,6 +17,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-netlify-identity`,
+      options: {
+        url: `http://www.as213007.com/.netlify/identity` // required!
+      }
+    },
+    {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
