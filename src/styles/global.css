@@ -1,0 +1,26 @@
+.css-1tmwbjt-Header {
+    margin-bottom: 0 !important;
+}
+a .css-72oyuf {
+    color:white;
+}
+
+.a-light {
+    color: black;
+}
+
+.a-dark {
+    color: rgb(203, 213, 224);;
+}
+
+@media screen and (min-width: 768px) {
+    .css-12dbb9p-Listing {
+        margin-bottom: 4rem !important;
+    }
+    .css-x63l5a-Homepage {
+        margin-bottom: 4em !important;
+    }
+    .css-12dbb9p-Listing {
+        margin-bottom: 4em !important;
+    }
+}
